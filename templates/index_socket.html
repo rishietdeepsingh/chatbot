@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vero Vital</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Vero Vital</h1>
+            <p>Ask me questions related to health, I'll be happy to answer and prevent misinformation</p>
+        </header>
+
+        <div class="chat-box" id="chat-box">
+            <!-- Messages will be appended here -->
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="user-message" placeholder="Type your message">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="/static/chat.js"></script>
+</body>
+</html>
